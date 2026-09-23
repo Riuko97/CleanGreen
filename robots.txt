@@ -1,0 +1,5 @@
+# robots.txt · CleanGreen Alcanar
+User-agent: *
+Allow: /
+
+Sitemap: https://riuko97.github.io/CleanGreen/sitemap.xml

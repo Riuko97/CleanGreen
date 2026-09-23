@@ -1,0 +1,10 @@
+# Lo que se queda solo en la copia local de trabajo y no se publica.
+
+# Documentacion interna del proyecto
+README.md
+
+# Solo hace falta si hay ficheros o carpetas que empiecen por guion bajo
+.nojekyll
+
+# Manifiesto para instalar la web como aplicacion: de momento no se usa
+site.webmanifest
