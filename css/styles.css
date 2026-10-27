@@ -318,3 +318,8 @@ ul{margin:0 0 1rem;padding-left:1.15rem}
 @media print{
   .cabecera,.barra-superior,.migas{display:none !important}
 }
+
+/* Logo en imagen */
+.logo__img{height:56px;width:auto;display:block}
+.pie .logo__img{background:#fff;border-radius:12px;padding:6px 10px;height:64px}
+@media (max-width:600px){.logo__img{height:44px}}
