@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Solo páginas indexables. Las páginas legales llevan noindex y no se incluyen. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://riuko97.github.io/CleanGreen/</loc>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -12,22 +13,7 @@
   </url>
   <url>
     <loc>https://riuko97.github.io/CleanGreen/contacto.html</loc>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://riuko97.github.io/CleanGreen/aviso-legal.html</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>https://riuko97.github.io/CleanGreen/politica-de-privacidad.html</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>https://riuko97.github.io/CleanGreen/politica-de-cookies.html</loc>
-    <lastmod>2026-09-23</lastmod>
-    <priority>0.2</priority>
   </url>
 </urlset>

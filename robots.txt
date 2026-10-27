@@ -1,5 +1,27 @@
 # robots.txt · CleanGreen Alcanar
+
+# Reglas para todos los robots: toda la web se puede rastrear.
+# Las páginas legales no se bloquean aquí: llevan <meta name="robots" content="noindex">
+# y los buscadores tienen que poder rastrearlas para leer esa etiqueta.
 User-agent: *
 Allow: /
+
+# Bots de búsqueda de IA (permitir): pueden citar la web en respuestas generativas
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+Allow: /
+
+# Bots de entrenamiento de IA (bloquear): no pueden usar el contenido para entrenar modelos
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+User-agent: Bytespider
+Disallow: /
 
 Sitemap: https://riuko97.github.io/CleanGreen/sitemap.xml
